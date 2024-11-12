@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio Personal</title>
+    <link rel="stylesheet" href="styles.css">
+
+    <!--Color de la aplicación-->
+    <meta name="theme-color" content="#ffff">
+
+    <!--Optimización Móvil-->
+    <meta name="MobileOptimized" content="width"/>
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="mobile-web-app-capable" content="yes"/>
+
+    <!--Meta etiqueta PWA para Apple-->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <link rel="apple-touch-icon" href="images/Icons/logo.png">
+    <link rel="apple-touch-startup-image" href="images/Icons/logo.png">
+
+    <!--Configuración General de PWA cargat el manifiesto-->
+    <link rel="manifest" href="manifest.json">
+    <script src="main.js"></script>
+</head>
+<body>
+    <header class="header">
+        <div class="personal-image">
+            <img src="images/me.jpg" class="personal-img">
+        </div>
+        <div class="container">
+            <div class="header-text">
+                <h1>Jonathan Javier Cobos Domínguez</h1>
+                <p>Ing. Desarrollo y Gestión de Software</p>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#about">Sobre Mí</a></li>
+                    <li><a href="#projects">Proyectos</a></li>
+                    <li><a href="#skills">Habilidades</a></li>
+                    <li><a href="#contact">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>    
+
+    <section id="about" class="section">
+        <div class="about-text">
+            <h2>Sobre Mí</h2>
+            <p>Hola, soy Jonathan, un desarrollador de software recién egresado de la carrera T.S.U. en Desarrollo de Software Multiplataforma y de Ingeniería en Desarrollo y Gestión de Software en la Universidad Tecnológica de Chihuahua, México. A mis 23 años, he adquirido conocimientos sólidos en diversas tecnologías y herramientas de desarrollo.</p>
+            <p>Durante mi formación, he trabajado en proyectos prácticos que me han permitido desarrollar habilidades en programación, diseño de interfaces y gestión de bases de datos. Tengo experiencia en el uso de lenguajes como JavaScript, C#, Java y en frameworks como Angular, React y Node.js, lo que me ha preparado para enfrentar desafíos en el desarrollo de aplicaciones web y móviles.</p>
+            <p>Me apasiona aprender y crecer constantemente en el ámbito tecnológico. Estoy interesado en aplicar mis conocimientos en entornos laborales donde pueda contribuir al desarrollo de soluciones innovadoras y efectivas.</p>
+            <p>En mi tiempo libre, disfruto explorando nuevas tendencias en el desarrollo de software y trabajando en proyectos personales que me permiten experimentar con tecnologías emergentes. Mi objetivo es seguir creciendo como profesional y aportar valor en cada proyecto en el que participo.</p>
+            <p>Estoy emocionado por las oportunidades que se presenten y listo para asumir nuevos retos en el campo del desarrollo de software.</p>
+        </div>
+    </section>       
+
+    <section id="projects" class="section">
+        <div class="container">
+            <h2>Proyectos</h2>
+            <div class="project">
+                <h3>Proyecto 1</h3>
+                <img src="images/logoserare.png" alt="Proyecto 1" class="proyecto-img">
+                <p>Serare es un proyecto sobre cerraduras inteligentes capaz de visualizar un historial de personas que llaman a tu 
+                    puerta y, en caso de emergencia, abrir o cerrar las puertas directamente desde la página web o la aplicación 
+                    móvil.
+                </p>
+                <b>Herramientas utilizadas:</b>
+                <ul>
+                    <li>Sitio Web - Angular</li>
+                    <li>Aplicación Móvil - Flutter</li>
+                    <li>Sistema de Puerta Inteligente - Arduino</li>
+                </ul>
+                <button>Ver Proyecto</button>
+            </div>
+            <div class="project">
+                <h3>Proyecto 2</h3>
+                <img src="images/nightride.webp" alt="Proyecto 2" class="proyecto-img">
+                <p>NighRide es un videojuego multiplataforma sobre carreras callejeras estilo drift, ambientado en una ciudad en plena transición a ser una ciudad futurista.</p>
+                <b>Herramientas utilizadas:</b>
+                <ul>
+                    <li>Desarrollo de Videojuego - Unity</li>
+                    <li>Sitio Web - Angular</li>
+                </ul>
+                <button>Ver Proyecto</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="section"> 
+        <div class="container">
+            <h2>Habilidades</h2>
+            
+            <h3>Lenguajes y Herramientas</h3>
+            <div class="skills-list">
+                <div class="skill-item">
+                    <img src="images/habilidades/logo-java.png" alt="Java" class="skill-logo">
+                    <p>Java</p>
+                </div>
+                <div class="skill-item">
+                    <img src="images/habilidades/logo-CSharp.png" alt="C#" class="skill-logo">
+                    <p>C#</p>
+                </div>
+                <div class="skill-item">
+                    <img src="images/habilidades/logo-dart.png" alt="Dart" class="skill-logo">
+                    <p>Dart</p>
+                </div>
+                <div class="skill-item">
+                    <img src="images/habilidades/js.png" alt="JavaScript" class="skill-logo">
+                    <p>JavaScript</p>
+                </div>
+                <div class="skill-item">
+                    <img src="images/habilidades/ts.png" alt="TypeScript" class="skill-logo">
+                    <p>TypeScript</p>
+                </div>
+                <div class="skill-item">
+                    <img src="images/habilidades/python.png" alt="Python" class="skill-logo">
+                    <p>Python</p>
+                </div>
+                <div class="skill-item">
+                    <img src="images/habilidades/angular.webp" alt="Angular" class="skill-logo">
+                    <p>Angular</p>
+                </div>
+                <div class="skill-item">
+                    <img src="images/habilidades/react.png" alt="React" class="skill-logo">
+                    <p>React</p>
+                </div>
+                <div class="skill-item">
+                    <img src="images/habilidades/node.png" alt="Node.js" class="skill-logo">
+                    <p>Node.js</p>
+                </div>
+                <div class="skill-item">
+                    <img src="images/habilidades/htmlcss.png" alt="HTML/CSS" class="skill-logo">
+                    <p>HTML/CSS</p>
+                </div>
+            </div>
+    
+            <h3>Metodologías de Desarrollo</h3>
+            <ul class="skills-list">
+                <li>Agile (Scrum, Kanban)</li>
+                <li>DevOps (CI/CD)</li>
+            </ul>
+    
+            <h3>Diseño y UX</h3>
+            <ul class="skills-list">
+                <li>Diseño de Interfaces</li>
+                <li>Prototipado (Figma, Adobe, Photoshop)</li>
+            </ul>
+    
+            <h3>Otras Habilidades</h3>
+            <ul class="skills-list">
+                <li>Control de Versiones (Git)</li>
+                <li>Testing y Automatización de Pruebas</li>
+                <li>Cloud Computing (AWS, Azure)</li>
+                <li>Seguridad Informática</li>
+            </ul>
+    
+            <h3>Soft Skills</h3>
+            <ul class="skills-list">
+                <li>Comunicación Efectiva</li>
+                <li>Trabajo en Equipo</li>
+                <li>Resolución de Problemas</li>
+                <li>Puntualidad</li>
+                <li>Responsabilidad</li>
+            </ul>
+        </div>
+    </section>
+      
+
+    <footer class="footer">
+        <div class="container">
+            <h2>Contacto</h2>
+            <p>Correo: <a href="mailto:jjcd1706@gmail.com">jjcd1706@gmail.com</a></p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/jonathan-javier-cobos-dominguez-a7231a26a/">Perfil de LinkedIn</a></p>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,75 @@
+{
+    "name": "Mi Portafolio PWA",
+    "short_name": "CV-PWA",
+    "description": "Portafolio de Jonathan, Ingeniero en Desarrollo y Gestión de Software.",
+    "start_url":"./index.html?utm_source=web_app_manifest",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#000000",
+    "orientation": "portrait",
+    "scope": "/",
+    "icons": [
+        {
+            "src": "images/Icons/logo16x16.png",
+            "sizes": "16x16",
+            "type": "image/png",
+            "form_factor": "wide"
+        },
+        {
+            "src": "images/Icons/logo32x32.png",
+            "sizes": "32x32",
+            "type": "image/png",
+            "form_factor": "wide"
+        },
+        {
+            "src": "images/Icons/logo64x64.png",
+            "sizes": "64x64",
+            "type": "image/png",
+            "form_factor": "wide"
+        },
+        {
+            "src": "images/Icons/logo96x96.png",
+            "sizes": "96x96",
+            "type": "image/png",
+            "form_factor": "wide"
+        },
+        {
+            "src": "images/Icons/logo128x128.png",
+            "sizes": "128x128",
+            "type": "image/png",
+            "form_factor": "wide"
+        },
+        {
+            "src": "images/Icons/logo192x192.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "form_factor": "wide"
+        },
+        {
+            "src": "images/Icons/logo256x256.png",
+            "sizes": "256x256",
+            "type": "image/png",
+            "form_factor": "wide"
+        },
+        {
+            "src": "images/Icons/logo384x384.png",
+            "sizes": "384x384",
+            "type": "image/png",
+            "form_factor": "wide"
+        },
+        {
+            "src": "images/Icons/logo512x512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "form_factor": "wide"
+        },
+        {
+            "src": "images/Icons/logo1024x1024.png",
+            "sizes": "1024x1024",
+            "type": "image/png",
+            "form_factor": "wide"
+        }
+    ],
+    "lang": "es-MX",
+    "dir": "ltr"
+}

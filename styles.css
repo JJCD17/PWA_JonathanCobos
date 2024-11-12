@@ -1,0 +1,172 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+/*Header*/
+header {
+    background: #343a40;
+    color: #fff;
+    padding: 20px 0;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+}
+
+.personal-image{
+    padding-left: 50px;
+}
+
+.personal-img {
+    width: 130px; /* Ajusta el tamaño según sea necesario */
+    height: 130px; /* Ajusta el tamaño según sea necesario */
+    border-radius: 50%; /* Hacer que la imagen tenga forma circular */
+    margin-right: 20px; /* Espacio entre la imagen y el texto */
+}
+
+.container {
+    width: 80%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ffc107;
+}
+
+.section {
+    padding: 40px 0;
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: #343a40;
+}
+
+/*About*/
+.proyecto-img {
+    width: 10%;
+    height: auto;
+}
+
+.project {
+    background: #fff;
+    margin: 15px 0;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.project:hover {
+    transform: translateY(-5px);
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.about-container {
+    display: flex;
+    align-items: center; /* Alinea verticalmente el texto y la imagen */
+    gap: 20px; /* Espacio entre el texto y la imagen */
+    margin: 20px 0; /* Espacio arriba y abajo */
+}
+
+.about-text {
+    flex: 1; /* Permite que el texto ocupe el espacio disponible */
+    text-align: justify; /* Justifica el texto */
+    padding: 5%;
+}
+
+h2 {
+    margin-bottom: 15px; /* Espacio debajo del título */
+}
+
+p {
+    margin-bottom: 10px; /* Espacio entre los párrafos */
+    line-height: 1.6; /* Mejora la legibilidad del texto */
+}
+
+
+/*Skills*/
+.skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Espacio entre elementos */
+    margin: 20px 0; /* Espacio arriba y abajo */
+}
+
+.skill-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centra el logo y texto */
+    width: 100px; /* Ancho fijo para cada item */
+}
+
+.skill-logo {
+    width: 60px; /* Ajusta el tamaño del logo */
+    height: auto; /* Mantiene la proporción */
+}
+
+h3 {
+    margin-top: 30px; /* Espacio encima del título */
+    margin-bottom: 10px; /* Espacio debajo del título */
+}
+
+ul.skills-list {
+    list-style-type: none; /* Elimina los puntos de la lista */
+    padding: 0; /* Elimina el padding */
+}
+
+ul.skills-list li {
+    margin: 5px 0; /* Espacio entre cada elemento de la lista */
+    font-size: 16px; /* Tamaño de fuente */
+}
+
+/*Footer*/
+footer {
+    background: #343a40;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer a {
+    color: #ffc107;
+    text-decoration: none;
+}
